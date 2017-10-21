@@ -1,0 +1,84 @@
+ * {
+   padding: 0;
+    border: 0;
+} 
+
+body {
+    font-size: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/rucksack-magazine-224948945961.jpg);
+    background-size: cover;
+
+}
+
+/* ------------------------------------------------------
+.main{
+    border: 2px dashed #eee;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: auto;
+    flex-wrap: nowrap;
+}
+
+.sub {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-around; 
+}
+
+*/ -------------------------------------------------------------
+.box {
+    position: relative;
+    top: 200px;
+    left: 300px;
+}
+
+
+.hero-text {
+    margin-left: 500px;
+    margin-top: 400px;
+} 
+
+.btn-primary, .secondary-button {
+    border-radius: 10px;
+    padding: 0 10px 0 10px;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 75%;
+    color: #555;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.8));
+    cursor: pointer;
+    opacity: .7;
+    border: 1px solid #333; 
+    box-shadow: 1px 1px 1px #666;
+}
+
+/* .hero-text button:hover {
+    opacity: .9;
+    color: #f1f3f3;
+} */
+.secondary-button:hover {
+    opacity: .9;
+    color: #f1f3f3;
+}
+
+.btn-primary {
+    height: 50px;
+    width: 150px;
+    padding: 0 5px 0 5px;
+    font-size: 75%;
+    margin-right: 30px;
+}
+.btn-primary:hover {
+    opacity: .9;
+    color: #f1f3f3;
+    background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.8));
+}
+.hero-text {
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+}
