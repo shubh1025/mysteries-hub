@@ -33,12 +33,13 @@ body {
     position: relative;
     top: 200px;
     left: 300px;
+    display: flex;
 }
 
 
 .hero-text {
-    margin-left: 500px;
-    margin-top: 400px;
+    margin-left: 450px;
+    margin-top: 300px;
 } 
 
 .btn-primary, .secondary-button {
@@ -77,8 +78,45 @@ body {
 }
 .hero-text {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-start;   
+}
+.side-quotes {
+ display: flex;
+ margin: 120px 20px 30px 20px;
+ padding: 10px; 
+ align-items: center;
+ background: rgba(22,24,24,0.1); 
+ 
     
-    
-    
+}
+
+.display-4 {
+    font-size: 195%;
+    color: rgb(249,247,247);
+    opacity: .7;
+    font-family: 'Courgette', cursive;
+    padding-right: 15px;
+    font-weight: 300;
+}
+
+.side-quotes h3 {
+    font-size: 150%;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: #f1f3f3;
+    padding-right: 20px;
+    font-style: italic;
+    opacity: 0.3;
+}
+.side-quotes h3:before {
+    content: open-quote;
+}
+.side-quotes h3:after {
+    content: close-quote;
+}
+h3:hover {
+    color: #fff;
+    opacity: .8;
+    transition: .5s;
+    transform: scale(1.1);
 }
