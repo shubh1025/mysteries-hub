@@ -82,14 +82,14 @@ body {
 }
 .side-quotes {
  display: flex;
- margin: 120px 20px 30px 20px;
+ margin: 300px 20px 30px 20px;
  padding: 10px; 
  align-items: center;
  background: rgba(22,24,24,0.1); 
- 
+ width: auto;
     
 }
-
+/*
 .display-4 {
     font-size: 195%;
     color: rgb(249,247,247);
@@ -98,15 +98,17 @@ body {
     padding-right: 15px;
     font-weight: 300;
 }
+*/
 
 .side-quotes h3 {
-    font-size: 150%;
+    font-size: 200%;
     font-family: 'Satisfy', cursive;
     font-weight: 100;
     color: #f1f3f3;
-    padding-right: 20px;
+    padding: 0 20px 0 100px;
     font-style: italic;
     opacity: 0.3;
+    
 }
 .side-quotes h3:before {
     content: open-quote;
