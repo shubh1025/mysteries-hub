@@ -62,6 +62,7 @@ body {
 .secondary-button:hover {
     opacity: .9;
     color: #f1f3f3;
+    transition: .5s;
 }
 
 .btn-primary {
@@ -82,11 +83,12 @@ body {
 }
 .side-quotes {
  display: flex;
- margin: 300px 20px 30px 20px;
+ margin: 200px 20px 30px 20px;
  padding: 10px; 
- align-items: center;
+
  background: rgba(22,24,24,0.1); 
  width: auto;
+ height: 130px;
     
 }
 /*
@@ -109,7 +111,7 @@ body {
     font-style: italic;
     opacity: 0.3;
     
-}
+    }
 .side-quotes h3:before {
     content: open-quote;
 }
